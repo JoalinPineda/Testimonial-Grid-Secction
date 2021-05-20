@@ -11,10 +11,10 @@
     --white: hsl(0, 0%, 100%);
     /* Neutral */
     --light-gray: hsl(0, 0%, 81%);
-    --ilght-grayish-blue: hsl(210, 46%, 95%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
 }
 body{
-    background-color: var(--light-gray);
+    background-color: var(--light-grayish-blue);
     height: 100vh;
 }
 main{
@@ -88,7 +88,7 @@ main{
     grid-row:2/3 ;
 }
 .card-5{
-    background-color: black;
+    background-color:var(--blackish-blue);
     grid-column: 2/4;
     grid-row:2/3 ;
 }
